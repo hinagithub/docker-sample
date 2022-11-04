@@ -17,3 +17,9 @@ services:
       MYSQL_ROOT_PASSWORD: pass
     ports:
       - "3306:3306"
+    networks:
+      - mynetwork
+networks:
+  mynetwork:
+    name: mynetwork
+    external: false
