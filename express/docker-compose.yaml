@@ -5,6 +5,5 @@ services:
     container_name: my-express-api
     build:
       context: .
-      dockerfile: .
     ports:
       - "8001:8000"
