@@ -31,7 +31,6 @@ docker compose up -d
 
 ```
 docker ps
-mysql:ʕ·ᴥ·ʔ >>>docker ps
 CONTAINER ID   IMAGE                                                       COMMAND                  CREATED          STATUS          PORTS                                                  NAMES
 XXXXXXXXXXXXX   YYYYYYYYYYYYY                                                "docker-entrypoint.s…"   44 minutes ago   Up 44 minutes   0.0.0.0:3306->3306/tcp, :::3306->3306/tcp, 33060/tcp   my-mysql
 ```
