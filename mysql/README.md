@@ -13,6 +13,7 @@ mysql
   ├── docker-compose.yml
   └── sql
       ├── data //　docker compose upを実行すると自動的に作成されます
+      ├── tmp
       ├── init
       └── myconf
           └── my.cnf
