@@ -23,3 +23,22 @@ mysql
 ```
 docker compose up -d
 ```
+
+## 🛢 データベース操作
+
+### データベース作成
+```
+docker exec -it my-mysql mysql -uroot -ppass
+
+mysql> create database mydb;
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mydb               | <- ある
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+```
